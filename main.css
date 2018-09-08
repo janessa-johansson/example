@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.item {
+    display: block;
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 10px;
+
+}
+
+.question {
+    padding: 10px;
+    background: #5db4d0;
+    color: white;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+
+}
+
+.question:hover{
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+.red{
+    color: red;
+    
+}
+
+.answer {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+form {
+    padding: 10px 15px 10px 10px;
+
+}
+
+textarea, input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 99%;
+    outline: none;
+    resize: vertical;
+
+}
+
+#submit {
+    padding: 10px;
+    background: #5db4d0;
+    color: #ffffff;
+    border-radius: 10%;
+    border: none;
+    font-weight: bold;
+    float: right;
+    font-size: 16px;
+    outline: none;
+}
+
+label{
+    font-weight: bold;
+
+}
+
+label::after{
+    content: ':'
+
+}
+
+label::before{
+    content: '* ';
+
+}
